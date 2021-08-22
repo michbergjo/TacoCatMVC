@@ -1,0 +1,97 @@
+﻿:root {
+    --primary-color: rgb(250, 164, 6);
+    --secondary-color: rgb(255, 44, 44);
+    --dark-color: rgba(138, 9, 0, 0.678);
+    --white-color: #f3e4bc;
+}
+
+body {
+    color: var(--dark-color);
+    font-family: 'Staatliches', cursive;
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+.nameFont {
+    font-family: 'Special Elite', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Staatliches', cursive;
+}
+
+footer {
+    padding-right: 1rem;
+}
+
+    footer .social > a {
+        color: var(--white-color);
+        opacity: 0.75;
+    }
+
+        footer .social > a:hover {
+            opacity: 0.9;
+            color: var(--secondary-color);
+        }
+
+.bsicon {
+    color: rgb(228, 9, 9);
+}
+
+.jsicon {
+    color: rgb(252, 150, 17);
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.css3icon {
+    color: rgba(243, 189, 39, 0.856);
+}
+
+.checklist > li i {
+    color: var(--secondary-color);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.btnCustom {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+    .btnCustom:hover {
+        background-color: var(--dark-color);
+        color: white;
+    }
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
